@@ -1,0 +1,3 @@
+SELECT LastName
+FROM Employees
+WHERE MONTH(EXTRACT(MONTH FROM BirthDate)) = 12;
